@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					08E2E30E1C3F3B4100B640C3 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6ZFZ89UGAB;
 					};
 					08E2E3271C3F3B4100B640C3 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -411,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ietuPingTuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.ietuPingTuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ietuPingTuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.ietuPingTuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
